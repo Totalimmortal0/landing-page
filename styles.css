@@ -128,3 +128,27 @@ ul {
     font-size: 24px;
     color: #1F2937;
 }
+
+.action-banner {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 42px 100px;
+    gap: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-banner .call {
+    font-weight: bold;
+    font-size: 22px;
+    color: #F9FAF8;
+}
+
+.sign-up-call {
+    color: #E5E7EB;
+}
+
+.call-btn {
+    border: 3px solid #F9FAF8;
+}
