@@ -86,6 +86,7 @@ ul {
 .illustrations {
     padding: 64px;
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
