@@ -152,3 +152,10 @@ ul {
 .call-btn {
     border: 3px solid #F9FAF8;
 }
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 32px 0;
+}
