@@ -104,3 +104,27 @@ ul {
     border-radius: 22px;
     margin-bottom: 6px;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 64px 364px;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-att {
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F2937;
+}
