@@ -6,6 +6,7 @@
 
 body {
     font-family: Roboto, sans-serif;
+    width: 100vw;
     /* display: flex; */
     /* flex-direction: column; */
 }
@@ -38,7 +39,6 @@ ul {
     padding: 64px 32px;
     display: flex;
     justify-content: space-evenly;
-    /* gap: 150px; */
     align-items: center;
 }
 
@@ -71,4 +71,36 @@ ul {
     text-align: center;
     width: 120px;
     padding: 12px 28px;
+}
+
+.information {
+    flex-direction: column;
+}
+
+.information > p {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.illustrations {
+    padding: 64px;
+    display: flex;
+    gap: 32px;
+}
+
+.illustration {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: min-content;
+    font-size: 18px;
+}
+
+.illustration img {
+    border: 6px solid #3882F6;
+    border-radius: 22px;
+    margin-bottom: 6px;
 }
